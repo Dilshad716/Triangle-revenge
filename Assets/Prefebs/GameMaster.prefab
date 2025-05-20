@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &789464813138519600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789464813138519614}
+  - component: {fileID: 2115455942}
+  - component: {fileID: 1357040928}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &789464813138519614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789464813138519600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.065432, y: 5.0194497, z: -0.17382812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115455942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789464813138519600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12fc1603389ce94a87aa505989d901e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MySlider: {fileID: 0}
+  EnemySpawnerList:
+  - {fileID: 3096721738971234698, guid: 51c1332c407f09242b100debfb3306b6, type: 3}
+  - {fileID: 1807997019006902598, guid: 7d109253d8858ea4fb7ec2753fcb00b2, type: 3}
+  - {fileID: 391491883726721299, guid: 2af6e4cd8b689024a84af8a40ba8edff, type: 3}
+  - {fileID: 2176080895486014161, guid: bfd67c9ba05e5de4681435ba7c18f8c3, type: 3}
+  MagnetstratTime: 0
+  MagnetwaitTime: 0
+  PowerUpUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  MyMagnetUpTime: {fileID: 0}
+  MagnetActive: 0
+--- !u!114 &1357040928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789464813138519600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3bd8f9ba141a4098e527921b1eec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coin: {fileID: 1829940711588931555, guid: 3376f7768e32ae64aa80073b06ed16b1, type: 3}
+  PowerUp:
+  - {fileID: 3356414444733451088, guid: b543c3a972a7e674980607472f013296, type: 3}
+  - {fileID: 7245896414743273492, guid: c1f81649eea432f489ebcbdfd9796566, type: 3}
+  Guns:
+  - {fileID: 8460325400648535858, guid: 4f7d96ab1f689b74e897abc8b6605e8c, type: 3}
+  - {fileID: 8460325400648535858, guid: 78cb9679f3f61614ab3b7cd1b4edb8fe, type: 3}

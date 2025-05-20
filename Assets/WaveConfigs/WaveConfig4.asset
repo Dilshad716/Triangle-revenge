@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01fc3b5ed201e74ebb88cc977532bae, type: 3}
+  m_Name: WaveConfig4
+  m_EditorClassIdentifier: 
+  EnemyWaypoints:
+  - {fileID: 5999971260639348113, guid: dee013af9c5902f4bb70556d99a283b4, type: 3}
+  - {fileID: 5999971260639348113, guid: 17bd1b03061c0764082f97c679df494a, type: 3}
+  - {fileID: 8797687930523702469, guid: 8c8534c13b5414a4fbd824750f5df7c2, type: 3}
+  - {fileID: 6095488336527653044, guid: ceefb6fd5d9255b46812edffcb9def42, type: 3}
+  NumbersOfEnemy: 6
+  EnemyPrefeb: {fileID: 8610080039884629968, guid: 36af05fa7fde48e41b2732d0b01e8c5e,
+    type: 3}
+  SpawnTimeDistance: 1
+  MyEnemySpawner: {fileID: 0}

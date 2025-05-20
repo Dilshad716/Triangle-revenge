@@ -1,0 +1,2 @@
+* Add Move TOward Animation in Start scene On Triangle Ui
+* Change Background in Start scene
